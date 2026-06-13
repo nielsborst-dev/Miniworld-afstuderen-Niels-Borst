@@ -1,0 +1,15 @@
+/* ═══════════════════════════════════════════════════
+   map.css — SVG plattegrond & district nodes
+   ═══════════════════════════════════════════════════ */
+
+/* District nodes */
+.dist-node { cursor: pointer; }
+.dist-node:hover .dist-building {
+  filter: brightness(1.25);
+}
+
+/* Label backgrounds: hidden by default, shown on hover via JS */
+.dist-label-bg { transition: opacity .15s ease; }
+
+/* Compass */
+.compass { pointer-events: none; }
